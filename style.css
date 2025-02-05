@@ -333,6 +333,42 @@ padding: 30px 20px;
   margin: 0 10px;
 font-size: 2.5rem;
 }
+.swiper {
+  width: 90%;
+  height: 100%;
+  padding: 0 100px;
+  margin-inline: auto;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.2);
+padding: 20px 20px;
+}
+
+.reviewcard{
+  display: grid;
+  gap: 1rem;
+}
+.reviewtxt .bbyy{
+  text-align: right;
+}
+.reviewhead {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 5px;
+}
+.reviewhead .icon {
+  background-color: blue;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
 @keyframes roll {
 from{
   transform: rotate(0deg);
