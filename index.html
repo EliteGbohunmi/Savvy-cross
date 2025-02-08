@@ -667,34 +667,24 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
           prevEl: ".swiper-button-prev",
         },
       });
-      var swiper = new Swiper(".mySwipersm", {
-        spaceBetween: 0,
-        centeredSlides: true,
-        effect : 'cards',
-        loop: true,
-          creativeEffect: {
-    prev: {
-      // will set `translateZ(-400px)` on previous slides
-      translate: [0, 0, -400],
-    },
-    next: {
-      // will set `translateX(100%)` on next slides
-      translate: ['100%', 0, 0],
-    },
-  },
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+       var swiper = new Swiper(".mySwiperr", {
+
+      effect: "creative",
+      autoplay: {
+        delay: 2800,
+        disableOnInteraction: false,
+      },
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 10,
+        shadowScale:1,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
     </script>
     <script src="script.js"></script>
     <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
