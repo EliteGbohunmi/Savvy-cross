@@ -79,7 +79,18 @@
       <h1 class="slide">About Me</h1>
       <div class="container">
         <div class="first_slide">
-          <img src="IMG-20250124-WA0069.jpg" alt="" />
+        <div class="swiper mySwipersm">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="IMG-20250208-WA0050.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="IMG-20250208-WA0050.jpg" alt="">
+          
+        </div>
+
+      </div>
+      </div>
         </div>
         <div class="second_slide">
           <p>
@@ -636,6 +647,34 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
         centeredSlides: true,      
         loop: true,
    
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper = new Swiper(".mySwiperm", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        effect : 'cards',
+        loop: true,
+          creativeEffect: {
+    prev: {
+      // will set `translateZ(-400px)` on previous slides
+      translate: [0, 0, -400],
+    },
+    next: {
+      // will set `translateX(100%)` on next slides
+      translate: ['100%', 0, 0],
+    },
+  },
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
