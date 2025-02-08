@@ -8,6 +8,9 @@
 width:100%;
   height:100%;
 }
+.container .first_slide{
+width:60%;
+}
 * {
   color: white;
   padding: 0;
