@@ -5,12 +5,10 @@
   --prim-col: #000000;
 }
 .uuu{
-width:100%;
-  height:100%;
+width:500px;
+  height:400px;
 }
-.container .first_slide{
-width:60%;
-}
+
 * {
   color: white;
   padding: 0;
