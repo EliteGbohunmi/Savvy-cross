@@ -4,6 +4,10 @@
   --sec-col: #576855;
   --prim-col: #000000;
 }
+.uuu{
+width:40%;
+  height:40%;
+}
 * {
   color: white;
   padding: 0;
