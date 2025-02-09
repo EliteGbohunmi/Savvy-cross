@@ -411,11 +411,9 @@ footer h1{
 .vv{
   text-align: center;
 }
-.footer_main .Socials p{
-  font-sizs:8px;
-}
+
 .footer_main .Socials a{
-  font-sizs:8px;
+  font-sizs:0.7rem;
   padding:20px 0;
 }
 .footer_main .Socials {
