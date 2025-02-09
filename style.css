@@ -407,6 +407,16 @@ footer h1{
 .foot_cont p{
   margin:15px 0;
   }
+.vv{
+  text-align: center;
+}
+.footer_main .Socials p{
+  font-sizs:14px;
+}
+.part1,
+.part2{
+  text-align: center;
+}
 @keyframes roll {
 from{
   transform: rotate(0deg);
