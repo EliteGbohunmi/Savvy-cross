@@ -413,6 +413,9 @@ footer h1{
 .footer_main .Socials p{
   font-sizs:14px;
 }
+.footer_main .Socials {
+color:gray;
+}
 .part1,
 .part2{
   text-align: center;
