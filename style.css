@@ -400,6 +400,7 @@ footer h1{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
+  padding:20px 0;
 }
 .foot_cont a{
   text-decoration: none;
