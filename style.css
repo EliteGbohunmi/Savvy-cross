@@ -382,7 +382,31 @@ padding: 20px 20px;
   object-fit:cover;
   
 }
-
+footer{
+  background: #000000;
+  padding: 30px 10px;
+  width:100%;
+}
+footer h1{
+  margin-bottom: 50px;
+}
+.foot_cont .part1_txt{
+  padding: 20px 0;
+  text-align: center;
+  color: #3cb371;
+}
+.foot_cont{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.foot_cont a{
+  text-decoration: none;
+  color:gray;
+}
+.foot_cont p{
+  margin:15px 0;
+  }
 @keyframes roll {
 from{
   transform: rotate(0deg);
