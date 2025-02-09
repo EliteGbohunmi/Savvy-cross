@@ -421,6 +421,12 @@ footer h1{
 color:gray;
   padding:20px 0;
 }
+.part1 p{
+  font-size:13px;
+}
+.part2 p{
+  font-size:13px;
+}
 .part1,
 .part2{
   text-align: center;
