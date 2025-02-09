@@ -414,8 +414,11 @@ footer h1{
 }
 
 .footer_main .socials a{
-  font-sizs:0.7rem;
+  font-sizs:0.5rem;
   padding:20px 0;
+}
+.footer_main .socials p{
+  font-sizs:0.5rem;
 }
 .footer_main .socials {
 color:gray;
