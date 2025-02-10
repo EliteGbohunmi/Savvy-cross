@@ -413,13 +413,11 @@ footer h1{
   text-align: center;
 }
 
-.footer_main .socials a{
-  font-sizs:5rem;
+.footer_main .socials a i{
+  font-sizs:0.7rem;
   padding:20px 0;
 }
-.footer_main .socials p{
-  font-sizs:5rem;
-}
+
 .footer_main .socials {
 color:gray;
   padding:20px 0;
