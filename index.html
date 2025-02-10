@@ -61,7 +61,7 @@
         <span class="line"></span>
       </div>
     </nav>
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="container">
         <div class="full">
           <video src="VID-20250124-WA0060.mp4"  muted loop autoplay></video>
@@ -80,7 +80,7 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="slide">About Me</h1>
       <div class="container">
         <div class="first_slide">
@@ -142,11 +142,11 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
         
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <h1 class="cent">My <span class="under">Services</span></h1>
       <div class="container">
         <div class="cards">
-          <div class="card">
+          <div class="card" id="motiong">
             <div class="cardhead">
               <div class="icon">
                  <img src="pngwing.com (7).png" alt="">
@@ -174,7 +174,7 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" id="logo">
             <div class="cardhead">
               <div class="icon">
                  <img src="pngwing.com (7).png" alt="">
@@ -204,7 +204,7 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" id="social">
             <div class="cardhead">
               <div class="icon">
                 <img src="pngwing.com (8).png" alt="">
@@ -229,7 +229,7 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" id="brand">
             <div class="cardhead">
               <div class="icon">
                  <img src="pngwing.com (7).png" alt="">
@@ -255,7 +255,7 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" id="ui">
             <div class="cardhead">
               <div class="icon">
                  <img src="pngwing.com (9).png" alt="">
@@ -316,7 +316,7 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
         </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <h1 class="slide">My <span class="coloredo">Projects</span></h1>
 
       <div class="container">
@@ -467,7 +467,7 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
   </div>
 
     
-     <section class="revise">
+     <section class="revise" id="revise">
         <h1 class="slide"><span class="coloredo"> Reviews </span></h1>
         <br/>
         <br/>
@@ -681,21 +681,22 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
         <div class="part1">
           <h3 class="part1_txt">Services</h3>
           
-          <p> <a class="" href="#">Motion graphics Video</a> </p>
-          <p> <a class="" href="#">Logo Animation</a> </p>
-          <p> <a class="" href="#">Social Media Design</a> </p>
-          <p> <a class="" href="#">Brand Identity Design</a> </p>
-          <p> <a class="" href="#">UI/UX Design</a> </p>
+          <p> <a class="" id="motiong" href="#">Motion graphics Video</a> </p>
+          <p> <a class="" id="logo" href="#">Logo Animation</a> </p>
+          <p> <a class="" id="social" href="#">Social Media Design</a> </p>
+          <p> <a class="" id="brand" href="#">Brand Identity Design</a> </p>
+          <p> <a class="" id="ui" href="#">UI/UX Design</a> </p>
       
         </div>
         <div class="part2">
           <h3 class="part1_txt">Company</h3>
           
-          <p> <a class="" href="#">Home</a> </p>
-          <p> <a class="" href="#">About</a> </p>
-          <p> <a class="" href="#">Services</a> </p>
-          <p> <a class="" href="#">Projects</a> </p>
-          <p> <a class="" href="#">Conncect</a> </p>
+          <p> <a class="" href="#home">Home</a> </p>
+          <p> <a class="" href="#about">About</a> </p>
+          <p> <a class="" href="#services">Services</a> </p>
+          <p> <a class="" href="#projects">Projects</a> </p>
+          <p> <a class="" href="#revise">Connect</a> </p>
+        
       
         </div>
       </div>
@@ -731,9 +732,18 @@ Excited to take your brand to New Heights with Captivating and Dynamic Motion De
         
       </div>
     </footer>
+   <a href="javascript:void(0)" class="scroll-to-top" onclick="gg()">
+     <i class="fa-solid fa-arrow-up"></i>
+   </a>
      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
+      function gg(){
+window.scrollTo({
+  top: 0,
+  behavior: "smooth"
+});
+      }
        var swiper = new Swiper(".mySwipersm", {
         spaceBetween: 0,
         centeredSlides: true,
