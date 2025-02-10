@@ -80,6 +80,9 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
 }
+nav .bhh{
+  display:flex;
+}
 /* Base styles for the hamburger */
 .menu-icon {
   cursor: pointer;
