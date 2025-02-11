@@ -86,10 +86,9 @@ nav ul li a {
   display:flex;
  justify-content:space-between;
   gap:1rem;
+  align-items:center;
 }
-.bhh .cta-button{
-padding:4px 8px;
-}
+
 /* Base styles for the hamburger */
 .menu-icon {
 
