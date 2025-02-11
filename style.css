@@ -82,11 +82,13 @@ nav ul li a {
   text-decoration: none;
   font-size:15px;
 }
-nav .bhh{
   display:flex;
+  gap:2rem;
+  align-items:center;
 }
 /* Base styles for the hamburger */
 .menu-icon {
+  order:2;
   cursor: pointer;
   display: inline-block;
   width: 30px;
