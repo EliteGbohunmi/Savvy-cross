@@ -95,6 +95,7 @@ nav ul li a {
   width: 30px;
   height: 25px;
   position: relative;
+  margin:0 10px;
 }
 
 .line {
