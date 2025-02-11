@@ -85,6 +85,7 @@ nav ul li a {
 .bhh{
   display:flex;
  justify-content:space-between;
+  gap:1rem;
 }
 /* Base styles for the hamburger */
 .menu-icon {
