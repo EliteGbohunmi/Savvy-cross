@@ -87,6 +87,9 @@ nav ul li a {
  justify-content:space-between;
   gap:1rem;
 }
+.bhh .cta-button{
+margin:0 20px;
+}
 /* Base styles for the hamburger */
 .menu-icon {
 
@@ -103,7 +106,7 @@ nav ul li a {
   height: 3px;
   width: 100%;
   display: block;
-  margin: 5px 0;
+  margin: 20px 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
