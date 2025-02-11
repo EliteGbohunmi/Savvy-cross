@@ -87,10 +87,7 @@ nav ul li a {
  justify-content:space-between;
   gap:1rem;
 }
-.bhh .cta-button{
-paddin:4px 8px;
-  font-size:17px;
-}
+
 /* Base styles for the hamburger */
 .menu-icon {
 
@@ -345,7 +342,7 @@ padding: 30px 20px;
 
 .cta-button {
   background-color:var(--main-col);
-  color: #fff;
+  color: #000;
   padding: 7px 25px;
   text-decoration: none;
   border-radius: 5px;
