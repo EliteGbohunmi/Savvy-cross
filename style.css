@@ -84,7 +84,7 @@ nav ul li a {
 }
 .bhh{
   display:flex;
- justify-content:sspace-between;
+ justify-content:space-between;
 }
 /* Base styles for the hamburger */
 .menu-icon {
