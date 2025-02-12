@@ -4,6 +4,9 @@
   --sec-col: #576855;
   --prim-col: #000000;
 }
+html{
+ scroll-behavior: smooth;
+}
 .uuu{
 width:330px;
   height:330px;
