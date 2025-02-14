@@ -15,12 +15,12 @@ ScrollReveal().reveal(".coloredg", {
   distance: "100px",
 });
 ScrollReveal().reveal(".coloredo", {
-  delay: 400,
+  delay: 200,
   origin: "bottom",
   distance: "100px",
 });
 ScrollReveal().reveal(".slide", {
-  delay: 200,
+  delay: 100,
   origin: "left",
   distance: "100px",
 });
@@ -35,17 +35,17 @@ ScrollReveal().reveal(".one", {
   distance: "100px",
 });
 ScrollReveal().reveal(".two", {
-  delay: 200,
+  delay: 100,
   origin: "bottom",
   distance: "100px",
 });
 ScrollReveal().reveal(".three", {
-  delay: 300,
+  delay: 200,
   origin: "bottom",
   distance: "100px",
 });
 ScrollReveal().reveal(".card", {
-  delay: 700,
+  delay: 300,
   origin: "bottom",
   distance: "100px",
 });
