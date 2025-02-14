@@ -339,7 +339,7 @@ padding: 30px 20px;
   padding: 20px;
 }
 
-.cta-container h1 {
+.cta-container h2 {
   font-size: 3rem;
   margin-bottom: 15px;
   color: #fff;
@@ -477,7 +477,7 @@ to{
 .levelimg{
   width:400px;
 }
-.level h1{
+.level h2{
   font-size: 55px;
 }
 @media (max-width: 1024px) {
@@ -554,7 +554,7 @@ to{
     width: 100%;
     padding-left: 0;
   }
-  .level h1{
+  .level h1\2{
     font-size: 50px;
   }
 }
