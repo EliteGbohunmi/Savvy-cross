@@ -164,7 +164,7 @@ padding: 8px 16px;
   font-size: 90px;
 }
 .hero .container .full_text h3{
-  font-weight:  300
+  font-weight:  300;
 }
 .coloredo {
   color: var(--main-col);
@@ -174,7 +174,7 @@ padding: 8px 16px;
 }
 
  .slide{
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 50px;
     font-weight: 400;
     position: relative;
@@ -199,7 +199,7 @@ padding: 8px 16px;
 line-height: 1.65;
 }
 .cent{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 .about .cent{
@@ -340,7 +340,7 @@ padding: 30px 20px;
 }
 
 .cta-container h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 15px;
   color: #fff;
 }
@@ -373,7 +373,7 @@ padding: 30px 20px;
 .socials a {
    text-decoration: none;
   margin: 0 10px;
-font-size: 2.5rem;
+font-size: 1.5rem;
 }
 .swiperb {
   width: 90%;
