@@ -545,7 +545,7 @@ to{
   }
   .leveltxt{
     order: 2;
-    padding: 0 20px;
+    padding: 5px;
   }
   .levelimg{
     padding-left: 40px;
@@ -554,7 +554,7 @@ to{
     width: 100%;
     padding-left: 0;
   }
-  .level h1\2{
-    font-size: 50px;
+  .level h2{
+    font-size: 35px;
   }
 }
