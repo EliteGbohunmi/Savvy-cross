@@ -498,6 +498,11 @@ to{
   margin: 0 10px;
 font-size: 2.5rem;
 }
+  .cta-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
 }
 @media (max-width: 768px) {
   nav ul {
