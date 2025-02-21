@@ -7,6 +7,20 @@
 html{
  scroll-behavior: smooth;
 }
+.cardhead .icon{
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  background: #2563EB; /* Blue color (adjust as needed) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.cardhead .icon i {
+  color: #FFFFFF; /* White icon */
+  font-size: 24px; /* Adjust size */
+}
 .socials .cent{
   padding:0 5px;
 font-size:37px;
