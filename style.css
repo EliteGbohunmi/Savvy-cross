@@ -574,6 +574,9 @@ font-size: 2.5rem;
     order: 2;
     
   }
+  .level p{
+width:90%;
+  }
   .levelimg{
     padding-left: 40px;
   }
